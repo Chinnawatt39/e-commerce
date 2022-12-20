@@ -1,0 +1,22 @@
+{
+  "app": {
+    "name": "e-commerce",
+    "version": "1.0.0",
+    "build": "20221219",
+    "port": 9002
+  },
+  "db": {
+    "host": "localhost",
+    "port": 3306,
+    "user": "root",
+    "password": "",
+    "dbname": "e_commerce",
+    "waitForConnection": true,
+    "connectionLimit": 10,
+    "queueLimit": 0
+  },
+  "log": {
+    "all": "../../log/e-commerce-api-%DATE%.log",
+    "error": "../../log/e-commerce-api.error.log"
+  }
+}
